@@ -13,7 +13,7 @@ stages:
   - stage: 'Junit'
     displayName: 'Junit Stage'
     jobs:
-      - job: 'Junit Stage'
+      - job: 'JunitTest'
         displayName: 'Running unit tests'
         steps:
           - script: echo 'Running spring demo app unit test'
