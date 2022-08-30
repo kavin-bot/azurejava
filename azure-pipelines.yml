@@ -27,7 +27,7 @@ stages:
               javaHomeOption: 'JDKVersion'
               mavenVersionOption: 'Default'
               mavenAuthenticateFeed: false
-              effectivePomSkip: false
+              effectivePomSkip: true
               sonarQubeRunAnalysis: false
               checkStyleRunAnalysis: true
               pmdRunAnalysis: true
